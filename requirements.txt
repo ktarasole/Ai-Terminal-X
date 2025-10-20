@@ -1,4 +1,8 @@
 langchain==0.0.235
-openai==0.27.8
-python-dotenv==1.0.0
-huggingface_hub
+transformers==4.35.0
+torch>=2.0.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+requests>=2.25.0
+python-dotenv>=1.0.0

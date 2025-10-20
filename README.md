@@ -182,6 +182,36 @@ For any other issues, feel free to open an issue in the [GitHub repository](http
 
 Теперь пользователи могут вводить команды как на русском, так и на английском языке, и система будет автоматически преобразовывать их в соответствующие команды терминала.
 
+# AI Terminal X - Русская версия
+
+Расширение для поддержки русского языка в AI Terminal X.
+
+## Возможности
+
+- Распознавание команд на русском языке
+- Автоматическое преобразование русских команд в терминальные
+- Поддержка как русских, так и английских команд
+- Интеллектуальная обработка естественного языка
+
+## Установка
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/ktarasole/Ai-Terminal-X/
+cd Ai-Terminal-X
+
+2. Установите зависимости:
+
+pip install -r requirements.txt
+
+3. Настройте API ключ OpenAI в файле .env:
+
+OPENAI_API_KEY=ваш_ключ_здесь
+
+4. Запустите программу:
+
+python main.py
+
 # 🚀 Let **AI-Terminal-X** Revolutionize Your Terminal Experience!
 
 *"Speak simple. Work smart."*

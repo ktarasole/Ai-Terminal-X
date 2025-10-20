@@ -170,18 +170,17 @@ For any other issues, feel free to open an issue in the [GitHub repository](http
 | `Display running processes`               | `ps aux`            |
 | `Open a file with Nano editor`            | `nano filename.txt` |
 
-## 👨‍💻 Author
 
-**Muhammad Izaz Haider**
+## Основные улучшения:
 
-* Ethical Hacker | Penetration Tester | Founder of **The Pentrix**
-* [LinkedIn](https://www.linkedin.com/in/muhammad-izaz-haider-091639314/) • [GitHub](https://github.com/mizazhaider-ceh) • [PortFolio](https://mizazhaider-ceh.github.io/My-Portfolio/)
+1. **Определение языка** - автоматическое распознавание русских команд
+2. **Словарь перевода** - базовые сопоставления русских команд с английскими аналогами
+3. **AI-обработка** - использование LangChain для сложных преобразований
+4. **Безопасность** - проверка и безопасное выполнение команд
+5. **Пользовательский интерфейс** - сообщения на русском языке
+6. **Документация** - README на русском языке
 
-## 🌟 Support the Project
-
-If you like  **AI-Terminal-X** , please **⭐ star the repo** and share it with your friends!
-
-Your support helps open-source thrive! 🚀
+Теперь пользователи могут вводить команды как на русском, так и на английском языке, и система будет автоматически преобразовывать их в соответствующие команды терминала.
 
 # 🚀 Let **AI-Terminal-X** Revolutionize Your Terminal Experience!
 

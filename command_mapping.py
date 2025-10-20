@@ -1,7 +1,7 @@
 import os
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
+from langchain.llms import HuggingFaceHub
 
 # Добавляем словарь для перевода русских команд
 RUSSIAN_COMMAND_MAPPING = {
@@ -64,7 +64,12 @@ def detect_language(text):
 
 def get_command_from_russian(russian_command):
     """Получает команду из русского текста"""
-    llm = OpenAI(temperature=0)
+    # Инициализируем модель HuggingFaceHub
+    llm = HuggingFaceHub(
+        repo_id="IlyaGusev/fred_t5_ru_turbo",
+        model_kwargs={"temperature": 0, "max_length": 1000}
+    )
+    
     prompt = enhance_command_mapping()
     
     russian_commands_list = "\n".join([f"- {ru}: {en}" for ru, en in RUSSIAN_COMMAND_MAPPING.items()])
